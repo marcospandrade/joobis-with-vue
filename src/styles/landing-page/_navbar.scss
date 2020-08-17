@@ -1,0 +1,28 @@
+.el-menu {
+    .menu1 {
+        margin-left: 5%;
+    }
+}
+
+.buttons {
+    :link {
+        text-decoration: none;
+    }
+
+    .btn-login {
+        background-color: white;
+        //color: rgb(12, 48, 77);
+        margin-top: 1%;
+        margin-left: 50%;
+        border-radius: 50px;
+        text-align: center;
+        border: 2px solid rgb(12, 48, 77);
+    }
+
+    .btn-register {
+        background-color: rgb(12, 48, 77);
+        color: white;
+        border-radius: 50px;
+        text-align: center;
+    }
+}
