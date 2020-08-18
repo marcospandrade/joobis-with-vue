@@ -7,7 +7,7 @@ Vue.use(VueResource);
 
 const http = Vue.http
 
-http.options.root = 'http://localhost:3300/api/'
+http.options.root = 'http://ec2-52-67-27-134.sa-east-1.compute.amazonaws.com:3300/api/'
 
 http.interceptors.push(interceptors)
 
